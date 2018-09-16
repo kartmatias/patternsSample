@@ -2,19 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaa250aa-543f-4f65-a497-bdc378590646" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uece/br/ConsoleColors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uece/br/chain/CedulaChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uece/br/chain/CedulaCinco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uece/br/chain/CedulaDez.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uece/br/chain/CedulaUm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uece/br/chain/IdCedulas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uece/br/decorator/Cobertura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uece/br/decorator/Extra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uece/br/decorator/FrozenBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uece/br/decorator/IFrozenItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uece/br/decorator/Topo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uece/br/factoryMethod/DecodedImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/abstractFactory/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaCalabresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaDomingo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaPresunto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaioloDom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaioloFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaioloSegQuaSex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaioloTerQuiSab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/command/CommandA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/command/Jogador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/command/Joystick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/command/jogoFutebol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/observer/Alarme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/observer/PoliciaObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/observer/SeguroObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/templateMethod/TransformaDuplicacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/templateMethod/TransformaInverte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/templateMethod/TransformaMaiuscula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/templateMethod/TransformaMinuscula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uece/br/templateMethod/TransformaStringTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uece/br/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uece/br/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,34 +34,49 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-857816612">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="2" />
-          <entry key="java" value="2399" />
+          <entry key="dummy" value="8" />
+          <entry key="java" value="4148" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2399" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="4148" />
+          <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="26" />
+          <entry key="java" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -64,20 +90,40 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/uece/br/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="94" column="45" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="45" />
+            <state relative-caret-position="252">
+              <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3942#3943#0" expanded="true" />
+                <element signature="e#3990#3991#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/uece/br/chain/CedulaChain.java">
+        <entry file="file://$PROJECT_DIR$/src/com/uece/br/templateMethod/TransformaDuplicacao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+            <state relative-caret-position="150">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/uece/br/templateMethod/TransformaInverte.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/uece/br/templateMethod/TransformaMaiuscula.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -98,17 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/uece/br/LogApp.java" />
-        <option value="$PROJECT_DIR$/src/com/uece/br/LogAppExt.java" />
-        <option value="$PROJECT_DIR$/src/com/uece/br/Logger.java" />
-        <option value="$PROJECT_DIR$/src/com/uece/br/LoggerExtend.java" />
-        <option value="$PROJECT_DIR$/src/com/uece/br/ILoggerExtend.java" />
-        <option value="$PROJECT_DIR$/src/com/uece/br/LoggerFIle.java" />
-        <option value="$PROJECT_DIR$/src/com/uece/br/LoggerFile.java" />
-        <option value="$PROJECT_DIR$/src/com/uece/br/LoggerEventViewer.java" />
-        <option value="$PROJECT_DIR$/src/com/uece/br/StrategyContext.java" />
-        <option value="$PROJECT_DIR$/src/com/uece/br/FactoryVisualizador.java" />
-        <option value="$PROJECT_DIR$/src/com/uece/br/VisualizadorBmp.java" />
         <option value="$PROJECT_DIR$/src/com/uece/br/VisualizadorJpg.java" />
         <option value="$PROJECT_DIR$/src/com/uece/br/IVisualizador.java" />
         <option value="$PROJECT_DIR$/src/com/uece/br/ImagemBmp.java" />
@@ -131,6 +166,34 @@
         <option value="$PROJECT_DIR$/src/com/uece/br/chain/CedulaCinco.java" />
         <option value="$PROJECT_DIR$/src/com/uece/br/chain/CedulaDez.java" />
         <option value="$PROJECT_DIR$/src/com/uece/br/chain/IdCedulas.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaioloFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/abstractFactory/Pizza.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaioloDom.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaDomingo.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaioloSegQuaSex.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaCalabresa.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaioloTerQuiSab.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaPresunto.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/command/Command.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/command/CommandA.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/command/Jogo.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/command/Comnmand.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/command/Joystick.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/command/Jogador.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/command/jogoFutebol.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/observer/AlarmesObserver.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/observer/AlarmeSubject.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/observer/Sensores.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/observer/Observer.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/observer/Assunto.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/observer/PoliciaObserver.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/observer/SeguroObserver.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/observer/Alarme.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/templateMethod/TransformaStringTemplate.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/templateMethod/TransformaMaiuscula.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/templateMethod/TransformaMinuscula.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/templateMethod/TransformaInverte.java" />
+        <option value="$PROJECT_DIR$/src/com/uece/br/templateMethod/TransformaDuplicacao.java" />
         <option value="$PROJECT_DIR$/src/com/uece/br/Main.java" />
       </list>
     </option>
@@ -141,11 +204,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds">
     <option name="x" value="960" />
-    <option name="y" value="30" />
+    <option name="y" value="281" />
     <option name="width" value="960" />
-    <option name="height" value="1050" />
+    <option name="height" value="787" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -153,6 +216,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,7 +240,14 @@
               <item name="padroesSingleton" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="chain" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="padroesSingleton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="padroesSingleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+              <item name="templateMethod" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -184,20 +255,22 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536981689803" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537065431715" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.uece.br.templateMethod" />
+      <recent name="com.uece.br.observer" />
+      <recent name="com.uece.br.command" />
+      <recent name="com.uece.br.abstractFactory" />
       <recent name="com.uece.br.factoryMethod" />
-      <recent name="com.uece.br" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.." />
@@ -252,17 +325,19 @@
       <workItem from="1536621331250" duration="530000" />
       <workItem from="1536963885554" duration="671000" />
       <workItem from="1536973766335" duration="7557000" />
+      <workItem from="1537033572773" duration="2113000" />
+      <workItem from="1537043020689" duration="11761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17963000" />
+    <option name="totallyTimeSpent" value="31837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="30" width="960" height="1050" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28884026" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30196938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -271,7 +346,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32934782" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32934782" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -280,14 +355,14 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32934782" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.16304348" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32932165" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
@@ -299,11 +374,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/uece/br/LoggerFile.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/uece/br/LoggerEventViewer.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/uece/br/IVisualizador.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/uece/br/ImagemJpg.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/uece/br/ImagemBmp.java" />
     <entry file="file://$PROJECT_DIR$/src/com/uece/br/VisualizadorJpg.java" />
     <entry file="file://$PROJECT_DIR$/src/com/uece/br/VisualizadorBmp.java" />
     <entry file="file://$PROJECT_DIR$/src/com/uece/br/FactoryVisualizador.java" />
@@ -355,20 +425,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/uece/br/factoryMethod/ImagemBmp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/uece/br/factoryMethod/ImagemJpg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/factoryMethod/ImagemBmp.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/factoryMethod/ImagemJpg.java" />
     <entry file="file://$PROJECT_DIR$/src/com/uece/br/factoryMethod/VisualizadorJpg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -501,6 +559,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaioloTerQuiSab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaPresunto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaioloSegQuaSex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaCalabresa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaioloDom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaDomingo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/abstractFactory/PizzaioloFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/abstractFactory/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/uece/br/chain/CedulaChain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -508,12 +626,183 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/uece/br/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/command/Comnmand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="94" column="45" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="45" />
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/command/CommandA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/command/Joystick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/command/Jogador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/command/jogoFutebol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/observer/Sensores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/observer/AlarmeSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/observer/AlarmesObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/observer/Alarme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/observer/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/observer/PoliciaObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="4" selection-end-line="12" />
+          <folding>
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/observer/SeguroObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/templateMethod/TransformaStringTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/templateMethod/TransformaMinuscula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/templateMethod/TransformaMaiuscula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/templateMethod/TransformaInverte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/templateMethod/TransformaDuplicacao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/uece/br/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3942#3943#0" expanded="true" />
+            <element signature="e#3990#3991#0" expanded="true" />
           </folding>
         </state>
       </provider>
